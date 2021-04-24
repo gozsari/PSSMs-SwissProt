@@ -10,7 +10,7 @@ PSSMs can be created using PSI-BLAST, which finds similar protein sequences to a
 
 This information is taken from [here](https://www.ncbi.nlm.nih.gov/Class/Structure/pssm/pssm_viewer.cgi#:~:text=A%20PSSM%2C%20or%20Position%2DSpecific,a%20protein%20multiple%20sequence%20alignment)
 
-The following is a sample's screenshot of a PSSM.
+The following is a screenshot of a sample PSSM.
 
 ![alt text](https://github.com/gozsari/PSSM_Files_of_ALL_SwissProt/blob/main/images/pssm.PNG)
 ## What is PSI BLAST?
