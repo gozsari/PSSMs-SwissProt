@@ -1,2 +1,10 @@
-# PSSM_Files_of_ALL_SwissProt
+# PSSM_Files_of_ALL_SwissProt_Proteins
  This repository contains the link for all Position Specific Scoring Matrices(PSSMs) of all protein in SwissProt(UniProtKB)
+## What is a PSSM?
+A PSSM, or Position-Specific Scoring Matrix, is a type of scoring matrix used in protein BLAST searches in which amino acid substitution scores are given separately for each position in a protein multiple sequence alignment. Thus, a Tyr-Trp substitution at position A of an alignment may receive a very different score than the same substitution at position B. This is in contrast to position-independent matrices such as the PAM and BLOSUM matrices, in which the Tyr-Trp substitution receives the same score no matter at what position it occurs.
+
+PSSM scores are generally shown as positive or negative integers. Positive scores indicate that the given amino acid substitution occurs more frequently in the alignment than expected by chance, while negative scores indicate that the substitution occurs less frequently than expected. Large positive scores often indicate critical functional residues, which may be active site residues or residues required for other intermolecular interactions.
+
+PSSMs can be created using PSI-BLAST, which finds similar protein sequences to a query sequence, and then constructs a PSSM from the resulting alignment. Alternatively, PSSMs can be retrieved from the NCBI CDD database, since each CD is represented by a PSSM that encodes the observed substitutions in the seed alignments. These CD records can be found either by text searching in Entrez Conserved Domains or by using RPS-BLAST (Reverse Position-Specific BLAST), also known as CD-Search, to locate these domains on an input protein sequence.
+
+This information is taken from [here](https://www.ncbi.nlm.nih.gov/Class/Structure/pssm/pssm_viewer.cgi#:~:text=A%20PSSM%2C%20or%20Position%2DSpecific,a%20protein%20multiple%20sequence%20alignment)
