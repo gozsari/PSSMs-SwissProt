@@ -1,5 +1,6 @@
 # PSSM_Files_of_ALL_SwissProt_Proteins
- This repository contains the [link](https://drive.google.com/drive/folders/1XYZG8NIVMjTb1eBoF54KCByLCv6IZcSQ?usp=sharing) for all Position Specific Scoring Matrices(PSSMs) of all protein in SwissProt(UniProtKB)
+ This repository contains the [link](https://drive.google.com/drive/folders/1XYZG8NIVMjTb1eBoF54KCByLCv6IZcSQ?usp=sharing) for all Position Specific Scoring Matrices(PSSMs) of all protein in SwissProt(UniProtKB).
+ These PSSMs are created by using **psi_blast** and UniRef50 database from [UniProtKB](https://www.uniprot.org/).
 ## What is a PSSM?
 A PSSM, or Position-Specific Scoring Matrix, is a type of scoring matrix used in protein BLAST searches in which amino acid substitution scores are given separately for each position in a protein multiple sequence alignment. Thus, a Tyr-Trp substitution at position A of an alignment may receive a very different score than the same substitution at position B. This is in contrast to position-independent matrices such as the PAM and BLOSUM matrices, in which the Tyr-Trp substitution receives the same score no matter at what position it occurs.
 
