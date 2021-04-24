@@ -10,6 +10,9 @@ PSSMs can be created using PSI-BLAST, which finds similar protein sequences to a
 
 This information is taken from [here](https://www.ncbi.nlm.nih.gov/Class/Structure/pssm/pssm_viewer.cgi#:~:text=A%20PSSM%2C%20or%20Position%2DSpecific,a%20protein%20multiple%20sequence%20alignment)
 
+The following is a sample's screenshot of a PSSM.
+
+![alt text](https://github.com/gozsari/PSSM_Files_of_ALL_SwissProt/blob/main/images/pssm.PNG)
 ## What is PSI BLAST?
 PSI-BLAST (Position-Specific Iterative Basic Local Alignment Search Tool) derives a position-specific scoring matrix (PSSM) or profile from the multiple sequence alignment of sequences detected above a given score threshold using protein–protein BLAST. This PSSM is used to further search the database for new matches, and is updated for subsequent iterations with these newly detected sequences. Thus, PSI-BLAST provides a means of detecting distant relationships between proteins. In this chapter, we discuss practical aspects of using PSI-BLAST and provide a tutorial on how to uncover distant relationships between proteins and use them to reach biologically meaningful conclusions.
 
