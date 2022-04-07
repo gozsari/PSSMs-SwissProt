@@ -1,6 +1,6 @@
 # PSSM_Files_of_ALL_SwissProt_Proteins
- This repository contains the [link](https://drive.google.com/file/d/1AeDvRgxMIViUz0hKz08UazisseTkvcv9/view?usp=sharing) for all Position-Specific Scoring Matrices(PSSMs) of all protein in SwissProt(UniProtKB).
- **You can download PSSM files of all proteins in [SwissProt](https://www.uniprot.org/uniprot/?query=reviewed:yes) from [here](https://drive.google.com/file/d/1AeDvRgxMIViUz0hKz08UazisseTkvcv9/view?usp=sharing).**
+ This repository contains the [link](https://slpred.kansil.org/swissprot_pssms.zip) for all Position-Specific Scoring Matrices(PSSMs) of all protein in SwissProt(UniProtKB).
+ **You can download PSSM files of all proteins in [SwissProt](https://www.uniprot.org/uniprot/?query=reviewed:yes) from [here](https://slpred.kansil.org/swissprot_pssms.zip).**
  These PSSMs are created by using **PSI BLAST** and [UniRef50](https://www.uniprot.org/uniref/?query=&fil=identity:0.5) database from [UniProtKB](https://www.uniprot.org/).
 ## What is a PSSM?
 A PSSM, or Position-Specific Scoring Matrix, is a type of scoring matrix used in protein BLAST searches in which amino acid substitution scores are given separately for each position in a protein multiple sequence alignment. Thus, a Tyr-Trp substitution at position A of an alignment may receive a very different score than the same substitution at position B. This is in contrast to position-independent matrices such as the PAM and BLOSUM matrices, in which the Tyr-Trp substitution receives the same score no matter at what position it occurs.
