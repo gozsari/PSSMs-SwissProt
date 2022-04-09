@@ -1,4 +1,4 @@
-# PSSM_Files_of_ALL_SwissProt_Proteins
+# PSSMs-SwissProt
  This repository contains the [link](https://slpred.kansil.org/swissprot_pssms.zip) for all Position-Specific Scoring Matrices(PSSMs) of all protein in SwissProt(UniProtKB).
  **You can download PSSM files of all proteins in [SwissProt](https://www.uniprot.org/uniprot/?query=reviewed:yes) from [here](https://slpred.kansil.org/swissprot_pssms.zip).**
  These PSSMs are created by using **PSI BLAST** and [UniRef50](https://www.uniprot.org/uniref/?query=&fil=identity:0.5) database from [UniProtKB](https://www.uniprot.org/).
